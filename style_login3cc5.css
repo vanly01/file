@@ -1,0 +1,248 @@
+.login_top {
+    float: right;
+    margin-top: 4px;
+}
+.login_bottom {
+    float: right;
+    width: 15%;
+    text-align: right;
+}
+.login_top {
+    float: right;
+    text-align: right;
+}
+
+.login_top ul li, .login_bottom ul li {
+    list-style: none;
+    position: relative;
+}
+
+.login_top ul li a, .login_bottom ul li a{
+    color: #fff;
+    font-size: 12px;
+}
+.login_top ul li a:hover, .login_bottom ul li a:hover{color: #fffc00;}
+
+.login_top ul li ul li {
+    background-image: none;
+}
+
+
+.login_top ul li a.fix {
+    text-decoration: none;
+}
+.favorites_book {
+    float: left;
+}
+
+.favorites_book ul {
+
+}
+
+.favorites_book ul li {
+    list-style: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #68bec5;
+    padding: 0 10px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.favorites_book ul li span {
+    padding-left: 8px;
+}
+
+.login-popup {
+    position: fixed;
+    background: #fff;
+    max-width: 430px;
+    width: 100%;
+    z-index: 9999;
+    padding: 0 30px 20px 30px;
+    left: 0;
+    right: 0;
+    top: 50px;
+    margin: auto;
+    display: none;
+    color: #eee;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+}
+.login-popup .desc{
+    font-size: 11.5px;
+}
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-size: 18px;
+}
+
+.login-popup h2 {
+    text-align: center;
+    color: #eee;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.v-lg{padding-top: 14px;}
+
+.login-popup .btn-facebook, .login-popup .btn-google {
+    display: inline-block;
+    width: 100%;
+    margin: 7px 0;
+    position: relative;
+    color: #FFF;
+    font-size: 14px
+}
+
+.login-popup .btn-facebook:hover, .login-popup .btn-google:hover {
+    color: #FFF
+}
+
+.login-popup .btn-facebook {
+    background: #3b5998
+}
+
+.login-popup .btn-google {
+    background: #dd4b39
+}
+
+.login-popup .btn-facebook span, .login-popup .btn-google span {
+    display: inline-block;
+    width: 40px;
+    padding: 10px 0;
+    text-align: center;
+    margin-right: 10px
+}
+
+.login-popup .btn-facebook img, .login-popup .btn-google img {
+    height: 17px
+}
+
+.login-popup .btn-facebook span {
+    background-color: #2f477a
+}
+
+.login-popup .btn-google span {
+    background-color: #b13c2e
+}
+
+.login-popup input:not([type="checkbox"]) {
+    width: 100%;
+    background-color: #fff;
+    border-left: 0;
+    border-bottom: 1px solid #666;
+    height: 40px;
+    margin: 7px 0;
+    font-size: 14px;
+    padding: 0;
+    color: #333;
+}
+span.remember{color: #333;font-size: 12px;font-weight: normal;}
+h2.login_y{color: #333;}
+.link-forget {
+    float: right;
+    color: #888;
+    font-size: 12px;
+}
+.link-sign{color: #333;}
+.link-forget:hover, .link-sign:hover{color: #000;}
+
+.link-signup {
+    float: left;
+    color: #c91c55 !important
+}
+
+.login-popup button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    -webkit-border-radius: 0;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #c91c55;
+    border: none;
+    color: #fff !important;
+    border-radius: 3px;
+}
+.login-popup hr {
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+.mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    z-index: 998;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+.nav_down_up {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: 9999;
+    display: none;
+    background: #fff;
+    border-radius: 4px;
+    border:  solid 1px #f484b1;
+}
+
+.nav_down_up ul {
+    padding: 10px 15px !important;
+}
+
+.nav_down_up li {
+    padding: 3px 0;
+}
+.nav_down_up ul li a {
+    height: auto !important;
+    line-height: inherit !important;
+    white-space: nowrap;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+
+.fa-heart::before {
+    content: "\f004";
+}
+
+.favorites_book ul li.active i, .favorites_book ul li.active span {
+    color: #f04892;
+}
+
+.login-popup input.error {
+    border: solid 1px red;
+}
+.bookmark-manage i {
+    background: url('../img/bookmart-manage.png') no-repeat;
+    background-position: 0 3px;
+    padding: 5px 0 10px 20px !important;
+}
+
+.bookmark-add i {
+    background: url('../img/bookmart-add.png') no-repeat;
+    background-position: 0 3px;
+    padding: 5px 0 10px 24px !important;
+}
+
+.bookmark-remove i {
+    background: url('../img/bookmart-remove.png') no-repeat;
+    background-position: 0 5px;
+    padding: 5px 0 10px 18px !important;
+}
+.error-block {
+    display: none;
+    color: red;
+}
+.page-split .page-split-left form .btn{background: #c91c55 !important;border: none;width: 100%;}

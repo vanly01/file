@@ -1,0 +1,57 @@
+.anime_video_body_watch_items, #my-video, #load_iframe_video, #my-video-0, #my-video-1, #my-video-2, #my-video-3, #my-video-4, #my-video-5, #my-video-6, #my-video-7, #my-video-8, #my-video-9, #my-video-10 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    width: 100%;
+    min-height: 270px;
+}
+.my-video-dimensions{
+	width: 100% !important;
+}
+.anime_video_body_watch_items iframe{
+	position:absolute;top:0;left:0;width:100%; height:100%;
+}
+#media-player.active{
+    margin-top:  0;
+}
+a.disabled {
+   pointer-events: none;
+   cursor: default;
+}
+.captcha{padding-top: 5px;}
+.modal{z-index: 10002;}
+.form-email{max-width: 100%; width: 630px;margin: auto;background: #fff;padding: 10px 30px 20px 30px;border-radius: 6px;}
+.form-email h1{font-size: 22px;}
+
+#list-eps .le-server.bk .les-content .btn-eps{min-width: 40px !important;margin: 3px !important;}
+#list-eps .le-server.bk .les-content .btn-eps.active::before {margin-right: 5px !important;}
+.mlw-topview .top-series, .mlw-topview .top-imdb{display: none;}
+#right-side-ads {position: fixed;right: 0px;top: 70px;width: 160px;line-height: 0px;margin: 0px;padding: 0px;}
+#request-form .col-sm-3{padding-left: 0;}
+
+.fa.fa-chevron-right.ml10, .qtip-tip{display: none !important}
+.server-list-item{display: none;}
+.server-list-item.active{display: block;}
+a.btn-eps.active{cursor: inherit;}
+.modal-cuz .modal-header{background-color: transparent !important;}
+.modal-header .close{top: 2px;}
+.pash-title{white-space: nowrap;overflow: hidden;}
+.anime_muti_link ul{padding: 20px 0;}
+.anime_muti_link ul li{background: url('../img/bg/server/animeupload.png') no-repeat left center;background-size: 20px 20px;position: relative;margin: 1px 0;border-bottom: solid 1px #1b1b1b;text-transform: uppercase;padding: 10px 0 10px 30px;list-style: none;}
+.anime_muti_link ul li:first-child{border-top: solid 1px #1b1b1b;}
+.anime_muti_link ul li.mp4, .anime_muti_link ul li.mp4upload{background-image: url('../img/bg/server/mp4.png')}
+.anime_muti_link ul li.open, .anime_muti_link ul li.openupload{background-image: url('../img/bg/server/openupload.png')}
+.anime_muti_link ul li.streamtape{background-image: url('../img/bg/server/streamtape.png')}
+.anime_muti_link ul li.estream{background-image: url('../img/bg/server/estream.png')}
+.anime_muti_link ul li.bestream{background-image: url('../img/bg/server/bestream.png')}
+.anime_muti_link ul li.thevideo, .anime_muti_link ul li.cloud9{background-image: url('../img/bg/server/thevideo.png')}
+.anime_muti_link ul li.streamsb{background-image: url('../img/bg/server/streamsb.png')}
+.anime_muti_link ul li.doodstream{background-image: url('../img/bg/server/doodstream.png')}
+.anime_muti_link ul li.vidlox{background-image: url('../img/bg/server/vidlox.png')}
+.anime_muti_link ul li.rapidvideo{background-image: url('../img/bg/server/rapidvideo.png')}
+.anime_muti_link ul li.xstreamcdn{background-image: url('../img/bg/server/xstreamcdn.png')}
+.anime_muti_link ul li.hydrax{background-image: url('../img/bg/server/hydrax.ico')}
+.anime_muti_link ul li.mixdrop{background-image: url('../img/bg/server/mixdrop.png')}
+
+.anime_muti_link ul li  span{position: absolute;right: 0;top: 0;bottom:0;padding: 10px;text-align: center;cursor:pointer;}
+.anime_muti_link ul li:hover span, .anime_muti_link ul li.active span{background-color: #C91C55;}
